@@ -25,7 +25,7 @@ public class UserManager {
                     System.out.println("Login successful!"); //Login successful
                     return true;
                 } else {
-                    System.out.println("Wrong password."); //Wrong password.
+                    System.out.println("Wrong password.");
                     return false;
                 }
             }
