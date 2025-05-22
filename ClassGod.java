@@ -22,7 +22,7 @@ public class UserManager {
         for (int i = 0; i < 100; i++) {
             if (users[i] != null && users[i].equals(username)) {
                 if (passwords[i].equals(password)) {
-                    System.out.println("Login successful!"); //Login successful
+                    System.out.println("Login successful!!"); 
                     return true;
                 } else {
                     System.out.println("Wrong password.");
